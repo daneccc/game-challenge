@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3541586429D9CE390049021F /* PuzzleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3541586329D9CE390049021F /* PuzzleScene.swift */; };
+		3541586629D9D3B30049021F /* PuzzleSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3541586529D9D3B30049021F /* PuzzleSceneView.swift */; };
+		3541586829D9E3460049021F /* clickselect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3541586729D9E3460049021F /* clickselect.mp3 */; };
+		3541586A29D9E4390049021F /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3541586929D9E4390049021F /* drop.mp3 */; };
+		3541586C29D9E4F70049021F /* TimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3541586B29D9E4F70049021F /* TimeBar.swift */; };
+		3541587129DA192C0049021F /* MenuViewOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3541587029DA192C0049021F /* MenuViewOptional.swift */; };
+		35592C7029D8A17F00F171B2 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35592C6F29D8A17F00F171B2 /* PlaySound.swift */; };
+		35592C7229D8A4EE00F171B2 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35592C7129D8A4EE00F171B2 /* music.mp3 */; };
+		35592C7429D91A5A00F171B2 /* stars.json in Resources */ = {isa = PBXBuildFile; fileRef = 35592C7329D91A5A00F171B2 /* stars.json */; };
+		35592C7729D91AB200F171B2 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 35592C7629D91AB200F171B2 /* Lottie */; };
+		35592C7929D91FC800F171B2 /* stars-crop.json in Resources */ = {isa = PBXBuildFile; fileRef = 35592C7829D91FC800F171B2 /* stars-crop.json */; };
+		35592C7B29D9209500F171B2 /* starsbg.json in Resources */ = {isa = PBXBuildFile; fileRef = 35592C7A29D9209500F171B2 /* starsbg.json */; };
+		35592C7D29D92C2700F171B2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35592C7C29D92C2700F171B2 /* SplashView.swift */; };
+		35592C7F29D92F6900F171B2 /* witch-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 35592C7E29D92F6900F171B2 /* witch-animation.json */; };
+		35592C8229D9343400F171B2 /* PuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35592C8129D9343400F171B2 /* PuzzleModel.swift */; };
+		35592C8729D9387200F171B2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35592C8629D9387200F171B2 /* GameScene.swift */; };
+		35592C8929D9395A00F171B2 /* PuzzleGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35592C8829D9395A00F171B2 /* PuzzleGameView.swift */; };
+		3582BE6029D7161800411A4F /* WitchGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582BE5F29D7161800411A4F /* WitchGameApp.swift */; };
+		3582BE6229D7161800411A4F /* MenuGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582BE6129D7161800411A4F /* MenuGameView.swift */; };
+		3582BE6429D7161A00411A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3582BE6329D7161A00411A4F /* Assets.xcassets */; };
+		3582BE6729D7161A00411A4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3582BE6629D7161A00411A4F /* Preview Assets.xcassets */; };
+		3582BE6F29D717A200411A4F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582BE6E29D717A200411A4F /* MenuView.swift */; };
+		35CA6DFE29D7DDD30049819E /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA6DFD29D7DDD30049819E /* CharacterView.swift */; };
+		35CA6E0029D87BB50049819E /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA6DFF29D87BB50049819E /* PuzzleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3541586329D9CE390049021F /* PuzzleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleScene.swift; sourceTree = "<group>"; };
+		3541586529D9D3B30049021F /* PuzzleSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSceneView.swift; sourceTree = "<group>"; };
+		3541586729D9E3460049021F /* clickselect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickselect.mp3; sourceTree = "<group>"; };
+		3541586929D9E4390049021F /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
+		3541586B29D9E4F70049021F /* TimeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBar.swift; sourceTree = "<group>"; };
+		3541587029DA192C0049021F /* MenuViewOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewOptional.swift; sourceTree = "<group>"; };
+		35592C6F29D8A17F00F171B2 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		35592C7129D8A4EE00F171B2 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		35592C7329D91A5A00F171B2 /* stars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stars.json; sourceTree = "<group>"; };
+		35592C7829D91FC800F171B2 /* stars-crop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "stars-crop.json"; sourceTree = "<group>"; };
+		35592C7A29D9209500F171B2 /* starsbg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = starsbg.json; sourceTree = "<group>"; };
+		35592C7C29D92C2700F171B2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		35592C7E29D92F6900F171B2 /* witch-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "witch-animation.json"; sourceTree = "<group>"; };
+		35592C8129D9343400F171B2 /* PuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleModel.swift; sourceTree = "<group>"; };
+		35592C8629D9387200F171B2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		35592C8829D9395A00F171B2 /* PuzzleGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameView.swift; sourceTree = "<group>"; };
+		3582BE5C29D7161800411A4F /* WitchGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WitchGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3582BE5F29D7161800411A4F /* WitchGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitchGameApp.swift; sourceTree = "<group>"; };
+		3582BE6129D7161800411A4F /* MenuGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGameView.swift; sourceTree = "<group>"; };
+		3582BE6329D7161A00411A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3582BE6629D7161A00411A4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3582BE6E29D717A200411A4F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		35CA6DFD29D7DDD30049819E /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		35CA6DFF29D87BB50049819E /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3582BE5929D7161800411A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35592C7729D91AB200F171B2 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3541586F29D9F3770049021F /* POC */ = {
+			isa = PBXGroup;
+			children = (
+				35592C8629D9387200F171B2 /* GameScene.swift */,
+				35592C8829D9395A00F171B2 /* PuzzleGameView.swift */,
+			);
+			path = POC;
+			sourceTree = "<group>";
+		};
+		35592C6E29D8A17100F171B2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				35592C7E29D92F6900F171B2 /* witch-animation.json */,
+				35592C7329D91A5A00F171B2 /* stars.json */,
+				35592C7A29D9209500F171B2 /* starsbg.json */,
+				35592C7829D91FC800F171B2 /* stars-crop.json */,
+				35592C7129D8A4EE00F171B2 /* music.mp3 */,
+				3541586729D9E3460049021F /* clickselect.mp3 */,
+				3541586929D9E4390049021F /* drop.mp3 */,
+				35592C6F29D8A17F00F171B2 /* PlaySound.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		35592C8029D9341B00F171B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35592C8129D9343400F171B2 /* PuzzleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35592C8329D937F000F171B2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3541586F29D9F3770049021F /* POC */,
+				3541586329D9CE390049021F /* PuzzleScene.swift */,
+				3541586529D9D3B30049021F /* PuzzleSceneView.swift */,
+				3541586B29D9E4F70049021F /* TimeBar.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3582BE5329D7161800411A4F = {
+			isa = PBXGroup;
+			children = (
+				3582BE5E29D7161800411A4F /* WitchGame */,
+				3582BE5D29D7161800411A4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3582BE5D29D7161800411A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3582BE5C29D7161800411A4F /* WitchGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3582BE5E29D7161800411A4F /* WitchGame */ = {
+			isa = PBXGroup;
+			children = (
+				35592C8329D937F000F171B2 /* Scenes */,
+				35592C8029D9341B00F171B2 /* Models */,
+				35592C6E29D8A17100F171B2 /* Helpers */,
+				3582BE6D29D7179100411A4F /* Views */,
+				3582BE5F29D7161800411A4F /* WitchGameApp.swift */,
+				3582BE6329D7161A00411A4F /* Assets.xcassets */,
+				3582BE6529D7161A00411A4F /* Preview Content */,
+			);
+			path = WitchGame;
+			sourceTree = "<group>";
+		};
+		3582BE6529D7161A00411A4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3582BE6629D7161A00411A4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3582BE6D29D7179100411A4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3582BE6E29D717A200411A4F /* MenuView.swift */,
+				35CA6DFD29D7DDD30049819E /* CharacterView.swift */,
+				35CA6DFF29D87BB50049819E /* PuzzleView.swift */,
+				3582BE6129D7161800411A4F /* MenuGameView.swift */,
+				35592C7C29D92C2700F171B2 /* SplashView.swift */,
+				3541587029DA192C0049021F /* MenuViewOptional.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3582BE5B29D7161800411A4F /* WitchGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3582BE6A29D7161A00411A4F /* Build configuration list for PBXNativeTarget "WitchGame" */;
+			buildPhases = (
+				3582BE5829D7161800411A4F /* Sources */,
+				3582BE5929D7161800411A4F /* Frameworks */,
+				3582BE5A29D7161800411A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WitchGame;
+			packageProductDependencies = (
+				35592C7629D91AB200F171B2 /* Lottie */,
+			);
+			productName = WitchGame;
+			productReference = 3582BE5C29D7161800411A4F /* WitchGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3582BE5429D7161800411A4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3582BE5B29D7161800411A4F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3582BE5729D7161800411A4F /* Build configuration list for PBXProject "WitchGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3582BE5329D7161800411A4F;
+			packageReferences = (
+				35592C7529D91AB200F171B2 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 3582BE5D29D7161800411A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3582BE5B29D7161800411A4F /* WitchGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3582BE5A29D7161800411A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35592C7F29D92F6900F171B2 /* witch-animation.json in Resources */,
+				3541586A29D9E4390049021F /* drop.mp3 in Resources */,
+				35592C7B29D9209500F171B2 /* starsbg.json in Resources */,
+				3582BE6729D7161A00411A4F /* Preview Assets.xcassets in Resources */,
+				35592C7929D91FC800F171B2 /* stars-crop.json in Resources */,
+				3541586829D9E3460049021F /* clickselect.mp3 in Resources */,
+				3582BE6429D7161A00411A4F /* Assets.xcassets in Resources */,
+				35592C7229D8A4EE00F171B2 /* music.mp3 in Resources */,
+				35592C7429D91A5A00F171B2 /* stars.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3582BE5829D7161800411A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35592C8929D9395A00F171B2 /* PuzzleGameView.swift in Sources */,
+				35592C8729D9387200F171B2 /* GameScene.swift in Sources */,
+				3582BE6229D7161800411A4F /* MenuGameView.swift in Sources */,
+				35592C7029D8A17F00F171B2 /* PlaySound.swift in Sources */,
+				3541586C29D9E4F70049021F /* TimeBar.swift in Sources */,
+				3541587129DA192C0049021F /* MenuViewOptional.swift in Sources */,
+				3582BE6F29D717A200411A4F /* MenuView.swift in Sources */,
+				35CA6DFE29D7DDD30049819E /* CharacterView.swift in Sources */,
+				3541586429D9CE390049021F /* PuzzleScene.swift in Sources */,
+				3582BE6029D7161800411A4F /* WitchGameApp.swift in Sources */,
+				35CA6E0029D87BB50049819E /* PuzzleView.swift in Sources */,
+				35592C7D29D92C2700F171B2 /* SplashView.swift in Sources */,
+				35592C8229D9343400F171B2 /* PuzzleModel.swift in Sources */,
+				3541586629D9D3B30049021F /* PuzzleSceneView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3582BE6829D7161A00411A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3582BE6929D7161A00411A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3582BE6B29D7161A00411A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WitchGame/Preview Content\"";
+				DEVELOPMENT_TEAM = D9VJ9R57LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.daniele.WitchGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3582BE6C29D7161A00411A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WitchGame/Preview Content\"";
+				DEVELOPMENT_TEAM = D9VJ9R57LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.daniele.WitchGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3582BE5729D7161800411A4F /* Build configuration list for PBXProject "WitchGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3582BE6829D7161A00411A4F /* Debug */,
+				3582BE6929D7161A00411A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3582BE6A29D7161A00411A4F /* Build configuration list for PBXNativeTarget "WitchGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3582BE6B29D7161A00411A4F /* Debug */,
+				3582BE6C29D7161A00411A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35592C7529D91AB200F171B2 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		35592C7629D91AB200F171B2 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35592C7529D91AB200F171B2 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3582BE5429D7161800411A4F /* Project object */;
+}

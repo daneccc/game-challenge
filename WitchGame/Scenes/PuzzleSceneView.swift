@@ -17,9 +17,12 @@ struct PuzzleSceneView: View {
                 .ignoresSafeArea(.all)
             ZStack {
                 SpriteView(scene: PuzzleScene(size: CGSize(width: geo.size.height, height: geo.size.height)))
-                    .frame(width: geo.size.width, height: geo.size.height + 20)
+//                    .frame(width: geo.size.width, height: geo.size.height + 20)
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                     // .padding(.top, 20)
                     .disabled(!gameStarted) // Disable SpriteView when game is not started
+                    .navigationBarBackButtonHidden()
+                    .edgesIgnoringSafeArea(.leading)
                 VStack {
                     Spacer()
                     

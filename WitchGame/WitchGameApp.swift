@@ -12,8 +12,8 @@ struct WitchGameApp: App {
     var body: some Scene {
         WindowGroup {
 //            PuzzleGameView()
-//            PuzzleSceneView()
-            SplashView()
+            PuzzleSceneView()
+//            SplashView()
 //            MenuViewOptional()
         }
     }

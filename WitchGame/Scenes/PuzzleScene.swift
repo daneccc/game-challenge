@@ -12,6 +12,7 @@ class PuzzleScene: SKScene {
     var correctPositions: [SKSpriteNode] = []
     //var filledPlaceholders: [CGPoint] = []
     var count: Int = 0
+
     
     // MARK: - View Lifecycle
     
@@ -24,7 +25,8 @@ class PuzzleScene: SKScene {
         //        let timerBar = TimerBar(size: CGSize(width: 20, height: 100), color: .green, duration: 60)
         //        addChild(timerBar)
         //        timerBar.start()
-        
+
+
         setupScene()
         setupPlaceholders()
         setupPieces()
@@ -33,10 +35,14 @@ class PuzzleScene: SKScene {
     // MARK: - Setup Methods
     
     private func setupScene() {
-        //        let background = SKSpriteNode(imageNamed: "puzzle-background")
-        //        background.anchorPoint = .zero
-        //        addChild(background)
-        backgroundColor = .white
+        let background = SKSpriteNode(imageNamed: "puzzle-background")
+        background.anchorPoint = CGPoint(x: 1, y: 1)
+        background.position = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2)
+        background.size = CGSize(width: frame.size.width, height: frame.size.height)
+
+        background.zPosition = -1
+        addChild(background)
+//        backgroundColor = .white
     }
     
     private func setupPieces() {
@@ -53,6 +59,7 @@ class PuzzleScene: SKScene {
             }
         }
     }
+    
     private func setupPlaceholders() {
         let margin: CGFloat = 50
         let padding: CGFloat = 10

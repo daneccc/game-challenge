@@ -44,7 +44,6 @@ class TimerBar: SKNode {
     }
 }
 
-
 //class TimerBar: SKNode {
 //
 //    private let backgroundBar: SKSpriteNode

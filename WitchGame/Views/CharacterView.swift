@@ -51,14 +51,9 @@ struct LottieBackground: UIViewRepresentable {
     }
 }
 
-
 struct CharacterView_Previews: PreviewProvider {
     static var previews: some View {
         CharacterView()
             .previewInterfaceOrientation(.landscapeRight)
     }
 }
-
-
-
-

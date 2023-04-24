@@ -16,11 +16,10 @@ struct PuzzleSceneView: View {
             LottieBackground(lottieName: "starsbg")
                 .ignoresSafeArea(.all)
             ZStack {
-                SpriteView(scene: PuzzleScene(size: CGSize(width: geo.size.height, height: geo.size.height)))
-//                    .frame(width: geo.size.width, height: geo.size.height + 20)
+                
+                SpriteView(scene: GameScene(size: CGSize(width: geo.size.height, height: geo.size.height)))
                     .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-                    // .padding(.top, 20)
-                    .disabled(!gameStarted) // Disable SpriteView when game is not started
+                // .disabled(!gameStarted) // Disable SpriteView when game is not started
                     .navigationBarBackButtonHidden()
                     .edgesIgnoringSafeArea(.leading)
                 VStack {
@@ -44,6 +43,7 @@ struct PuzzleSceneView: View {
                 .opacity(gameStarted ? 0 : 1) // Hide VStack when game is started
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea(.all)
         }
     }
 }
